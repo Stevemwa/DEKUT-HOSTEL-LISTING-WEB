@@ -1,0 +1,60 @@
+body{
+background-image: url("Images/Overview Dekut.jpg"),url("Images/Mount_Kenya.jpg");
+background-position:right bottom;
+/* background-repeat: no-repeat; */
+background-position: top left;
+}
+.home {
+  height: 248;
+  width: 138.88;
+  border-radius: 20px;
+  
+}
+
+div.gallery {
+  border-radius: 20px;
+  margin: 25px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border-radius: 20px;
+  border: 1px solid rgb(187, 41, 41);
+}
+
+div.gallery img {
+  width: 245px;
+  height: 300px;
+  border-radius: 20px;
+  margin:2px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  text-shadow: 2px 0px 2px black;
+  text-decoration-color: aliceblue;
+
+}
+
+#img-gallery-title {
+  text-decoration: underline;
+  text-align: center;
+  font-style: serif;
+  font-weight: bolder;
+}
+
+#overshadow {
+  background-color:rgba(0, 0, 0,0.6);
+
+}
+.contain {
+  opacity: 0.5;
+}
+
+.img-gallery{
+  background-color:rgba(0, 0, 0,0.7);
+ 
+}

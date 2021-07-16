@@ -8,18 +8,42 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+<link rel="stylesheet" href="fer.css">
     <title></title>
   </head>
   <body>
-    <div class="navbar">
+    <!---<div class="navbar">
       <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
       <a href="#"><i class="fa fa-fw fa-th"></i> Browse hostels</a>
       <a href="aboutus.html"><i class="fa fa-fw fa-user-secret"></i> About us</a>
 
-    </div>
+    </div>----->
+<header style="background-image: linear-gradient(black,darkgreen,green,lightgreen,white);">
+
+
+    <nav>
+                    <a href="index.html"><img src="" alt="LOGO"> </a>
+ <div class="nav_links" id="navLinks">
+
+<i class="fa fa-times" onclick="HideMenu()"></i>
+
+      <ul>
+        <li><a href="index.html"><i class="fa fa-fw fa-home"></i> HOME</a></li>
+        <li><a href="pics.html"><i class="fa fa-fw fa-th"></i> BROWSE HOSTELS</a></li>
+        <li><a href="hostellist.html"> <i class="fa fa-fw fa-chevron-circle-down"></i>HOSTEL LIST</a></li>
+        <li><a href="contacts.html"> <i class="fa fa-fw fa-phone"></i>CONTACTS</a></li>
+        <li><a href="aboutus.html"><i class="fa fa-fw fa-user-secret"></i>ABOUT US</a></li>
+
+      </ul>
+
+</div>
+<i class="fa fa-bars" onclick="ShowMenu()" ></i>
+</nav>
+</header>
 
     <div class="jumbotron">
       <h1 class="jumbotrontext">DEKUT HOSTELS LISTING WEBSITE</h1>
@@ -32,6 +56,14 @@
 
     <!-- about us creative design start -->
 
-
+<a href="updater.html"><button type="button" name="button">UPDATE MEEEEEE/button></a>
+  <script type="text/javascript">
+  var navLinks=document.getElementById('navLinks');
+  function ShowMenu() {
+  navLinks.style.right="0";}
+  function HideMenu() {
+  navLinks.style.right="-200px";
+  }
+  </script>
   </body>
 </html>
