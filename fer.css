@@ -81,6 +81,7 @@ nav{
   position: relative;
   cursor: auto;
   border:1px solid white;
+  border-radius: 25px;
 }
 .hmpgbtn:hover{
   border-radius: 25px;
@@ -230,6 +231,7 @@ overflow: hidden;
 
 .recomendpics img{
   width: 100%;
+  height: 50vh;
   }
   .layer{
     background: transparent;

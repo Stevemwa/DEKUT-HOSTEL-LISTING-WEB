@@ -14,12 +14,26 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-    <link rel="stylesheet" href="index.css">
+
     <link rel="stylesheet" href="fer.css">
 
-    
+    <style>
+    /*.parallax {
+      /* The image used */
+    /*  background-image:url(https://www.dkut.ac.ke/images/testimonial.jpg);
+filter: opacity(0.9);
+      /* Set a specific height */
+      /*min-height: 500px;
 
-   
+      /* Create the parallax scrolling effect */
+      /*background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+
+    */ </style>
   </head>
   <body class="homebody">
   <section class="header">
@@ -66,8 +80,7 @@
             <div class="recomendpics">
             <img src="https://fastly.4sqi.net/img/general/600x600/yBcyEEucRIAxCG9k5-4vhA958Em1gnfXbS6Rq6MDe3A.jpg" alt="SUNRICE HOSTEL">
             <div class="layer">
-              <h4 id="sunriserooms">SUNRISE HOSTEL<br> Great security,spacious room.<br>
-               rooms available</h4>
+              <h4 id="sunriserooms"></h4>
 
 
             </div>
@@ -75,7 +88,7 @@
             </div>
 
             <div class="recomendpics">
-            <img src="https://lh3.googleusercontent.com/proxy/V4Md-znOQ3xczw2nMNCzGplnQ1U08K7pNEwOvy9A39y-NyBsDshW1Zdvh1GWAqVQk2oAu7Omt6Mhm7edmgP_qILc5S0cy57vS5zhY6iWOerYD9k" alt="SUNRICE HOSTEL">
+            <img src="https://lh3.googleusercontent.com/proxy/ekJa2SdPWxEkvsFk5aiVGBx8c0_-q-Q89kf_qWpkyeIa_g1vRDTQOwnLHAlo2IxlKlZXWgXsH6LnGate1P-THwWS-pSCTXEBXSNrwV6RtDAB8qs" alt="SUNRICE HOSTEL">
             <div class="layer">
               <h4>KIMATHI STUDENTS CENTRE (Greens) <br>Close proximity to school.<br><span id="Greensrooms"> </span> rooms available</h4>
 
@@ -91,6 +104,41 @@
             </div>
    </div>
 </section>
+
+<section class="Toprecomendation">
+<div class="rowrecom">
+         <div class="recomendpics">
+         <img src="https://fastly.4sqi.net/img/general/600x600/yBcyEEucRIAxCG9k5-4vhA958Em1gnfXbS6Rq6MDe3A.jpg" alt="SUNRICE HOSTEL">
+         <div class="layer">
+           <h4 id="sunriserooms"></h4>
+
+
+         </div>
+
+         </div>
+
+         <div class="recomendpics">
+         <img src="https://lh3.googleusercontent.com/proxy/ekJa2SdPWxEkvsFk5aiVGBx8c0_-q-Q89kf_qWpkyeIa_g1vRDTQOwnLHAlo2IxlKlZXWgXsH6LnGate1P-THwWS-pSCTXEBXSNrwV6RtDAB8qs" alt="SUNRICE HOSTEL">
+         <div class="layer">
+           <h4>KIMATHI STUDENTS CENTRE (Greens) <br>Close proximity to school.<br><span id="Greensrooms"> </span> rooms available</h4>
+
+         </div>
+         </div>
+
+         <div class="recomendpics">
+         <img src="https://lh3.googleusercontent.com/p/AF1QipMHuCfBAntrWinY_xoepOuIVMt5TeRk-gqLetC-=s1600-w400" alt="SUNRICE HOSTEL">
+         <div class="layer">
+           <h4>CATHOLIC LADIES HOSTEL<br>Great serene secure ,enviroment.<br><span id="CATHOLICrooms"> </span> rooms available</h4>
+         </div>
+
+         </div>
+         <p>Would you like to view more?<br> click on browse hostels above.</p>
+</div>
+
+
+</section>
+
+
 
 
     <!--<div class="box">
@@ -160,13 +208,13 @@
 
 
 
-<section class="contactass">
+<section class="contactass" id="contactass">
     <h1>Have a question or inquery with us ?<br> Kindly visit our contact page by clicking the button below. </h1>
     <a href="contactus.html"><button class="contactassbtn">CONTACT US</button></a>
 </section>
 
 
-<footer class="futa">
+<footer class="futa" id="futa">
 <h1 class="futah1">About us</h1>
 <p class="futap">Alfred Gichia in colaboration with Innovative console ,have partially solved the accomodation issue ,amomg
 <br>students at the Dedan Kimathi University of technology,<br>This web app connects incoming student and students already in campus to reliable hostels.  </p>
@@ -190,6 +238,7 @@ function ShowMenu() {
 navLinks.style.right="0";}
 function HideMenu() {
 navLinks.style.right="-200px";
+navLinks.style.display=none;
 }
 </script>
 

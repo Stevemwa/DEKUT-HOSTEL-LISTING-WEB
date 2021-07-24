@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <title>about us</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,59 +12,58 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    
+
 <link rel="stylesheet" href="fer.css">
-    <title></title>
+<link rel="stylesheet" href="index.css">
   </head>
   <body>
-    <!---<div class="navbar">
-      <a class="active" href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a href="#"><i class="fa fa-fw fa-th"></i> Browse hostels</a>
-      <a href="aboutus.html"><i class="fa fa-fw fa-user-secret"></i> About us</a>
-
-    </div>----->
-<header style="background-image: linear-gradient(black,darkgreen,green,lightgreen,white);">
+    <header>
 
 
-    <nav>
-                    <a href="index.html"><img src="" alt="LOGO"> </a>
- <div class="nav_links" id="navLinks">
+    <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html"><i class="fa fa-fw fa-home"></i> HOME</a></a>
+      <a href="fredshostel list.html"><i class="fa fa-fw fa-chevron-circle-down"></i>HOSTEL LIST</a>
+      <a href="#contactass"><i class="fa fa-fw fa-phone"></i>CONTACT US</a>
+      <a href="#futa"><i class="fa fa-fw fa-user-secret"></i>ABOUT US</a>
+      <a><i class="fa fa-facebook" style="color:blue;" >facebook</i></a>
+      <a><i class="fa fa-twitter" style="color:skyblue;"  >twitter</i></a>
+      <a><i class="fa fa-whatsapp"  style="color:green;">whatsapp</i></a>
+      <a><i class="fa fa-instagram" style="color:pink;" >instagram</i></a>
 
-<i class="fa fa-times" onclick="HideMenu()"></i>
-
-      <ul>
-        <li><a href="index.html"><i class="fa fa-fw fa-home"></i> HOME</a></li>
-        <li><a href="pics.html"><i class="fa fa-fw fa-th"></i> BROWSE HOSTELS</a></li>
-        <li><a href="hostellist.html"> <i class="fa fa-fw fa-chevron-circle-down"></i>HOSTEL LIST</a></li>
-        <li><a href="contacts.html"> <i class="fa fa-fw fa-phone"></i>CONTACTS</a></li>
-        <li><a href="aboutus.html"><i class="fa fa-fw fa-user-secret"></i>ABOUT US</a></li>
-
-      </ul>
-
-</div>
-<i class="fa fa-bars" onclick="ShowMenu()" ></i>
-</nav>
-</header>
-
-    <div class="jumbotron">
-      <h1 class="jumbotrontext">DEKUT HOSTELS LISTING WEBSITE</h1>
-      <p class="jumbotrontext">Welcome to dekut's bests hostel listing webite,hope u'll find a house of your liking.</p>
-    </div>
-    <div class="container">
-      <h1 class="jumbotrontext"> Dekut Hostel Listing website </h1>
-      <p class="jumbotrontext">This incredible website by innovative console in cooperation with Alfred G.G ,is an incredible idea to curb the increasing crime rate of students being conned by barrons pretending to be hostel owners ,here we have scrutinized the hostel data we get to ensure the geniuneness of our listings, this is also a game changer allowing the students to find hostels easily unlike previously where they had to go from town to town searching foa hostel,welcome to collaborate with us</p>
     </div>
 
-    <!-- about us creative design start -->
+    <button class="openbtn" onclick="openNav()">&#9776; </button>
+  </header>
+    <footer class="futa" id="futa">
+    <h1 class="futah1" style="font-size:50px;">About us</h1>
+    <p class="futap"style="font-size:50px;">Alfred Gichia in colaboration with Innovative console ,have partially solved the accomodation issue ,amomg
+    <br>students at the Dedan Kimathi University of technology,<br>This web app connects incoming student and students already in campus to reliable hostels.  </p>
+    <div class="iconss">
+    <i class="fa fa-facebook" style="color:blue;font-size:50px;" >facebook</i>
+    <i class="fa fa-twitter" style="color:skyblue; font-size:50px;"  >twitter</i>
+    <i class="fa fa-whatsapp"  style="color:green; font-size:50px;">whatsapp</i>
+    <i class="fa fa-instagram" style="color:pink; font-size:50px;" >instagram</i>
 
-<a href="updater.html"><button type="button" name="button">UPDATE MEEEEEE/button></a>
-  <script type="text/javascript">
-  var navLinks=document.getElementById('navLinks');
-  function ShowMenu() {
-  navLinks.style.right="0";}
-  function HideMenu() {
-  navLinks.style.right="-200px";
-  }
-  </script>
+    </div>
+    </footer>
+
+
+    <script type="text/javascript">
+    /* Set the width of the sidebar to 250px (show it) */
+    function openNav() {
+      document.getElementById("mySidepanel").style.width = "350px";
+    }
+
+    /* Set the width of the sidebar to 0 (hide it) */
+    function closeNav() {
+      document.getElementById("mySidepanel").style.width = "0";
+    }
+
+
+    </script>
+
+
+
   </body>
-</html>
+  </html>
