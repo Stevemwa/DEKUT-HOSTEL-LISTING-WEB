@@ -1,3 +1,7 @@
+body{
+  background-image: url("https://st3.depositphotos.com/3680349/19035/v/1600/depositphotos_190358992-stock-illustration-abstract-seamless-pattern-different-shapes.jpg");
+
+}
 header{
   background-color: black;
 }
@@ -74,6 +78,7 @@ header{
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  border-radius: 25px;
 
 }
 
@@ -86,7 +91,10 @@ header{
 
 
 .rewsren_pics{
+  width:100%;
   flex-basis: 32%;
+  border: 1px solid black;
+  border-width: thick;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
@@ -96,19 +104,20 @@ header{
 
 .layer h4{
   width: 100%;
-  font-weight: 500;
+  height: 50%;
+  font-weight: bold;
   color: white;
-  font-size: 26px;
-  bottom: 0;
+  bottom: -5px;
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  opacity: 0;
   transition: 0.4s;
 }
-.layer h4 :hover {
+.layer  :hover {
+  height: 100%;
+ background-color: rgba(0, 0, 20, 0.7);
 
-  opacity:1;
+
 }
 
 
