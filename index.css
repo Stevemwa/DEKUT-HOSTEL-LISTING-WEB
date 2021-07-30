@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
-  background-image: url("https://st3.depositphotos.com/3680349/19035/v/1600/depositphotos_190358992-stock-illustration-abstract-seamless-pattern-different-shapes.jpg");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Lascar_Statue_of_Dedan_Kimathi_Waciuri_%284540820430%29.jpg/1200px-Lascar_Statue_of_Dedan_Kimathi_Waciuri_%284540820430%29.jpg");
+  background-size: cover;
 
 }
 header{
@@ -7,6 +11,7 @@ header{
 }
 /* The sidepanel menu */
 .sidepanel {
+  display: block;
   height: 100vh; /* Specify a height */
   width: 0; /* 0 width - change this with JavaScript */
   position: fixed; /* Stay in place */
@@ -21,7 +26,7 @@ header{
 
 /* The sidepanel links */
 .sidepanel a {
-  padding: 10px 12px 10px 40px;
+  padding: 30px 20px 10px 40px;
   text-decoration: none;
   font-size: 34px;
   color: white;
@@ -91,17 +96,29 @@ header{
 
 
 .rewsren_pics{
-  width:100%;
   flex-basis: 32%;
-  border: 1px solid black;
-  border-width: thick;
   border-radius: 10px;
   margin-bottom: 30px;
   position: relative;
   overflow: hidden;
+  border-radius: 25px;
 }
 
 
+
+}
+@media(max-width: 600px) {
+
+
+     }
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;}
 .layer h4{
   width: 100%;
   height: 50%;
@@ -116,8 +133,6 @@ header{
 .layer  :hover {
   height: 100%;
  background-color: rgba(0, 0, 20, 0.7);
-
-
 }
 
 
@@ -126,3 +141,40 @@ header{
 /////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 /* image grid end */
+.areabtncontainers{
+  width: 90%;
+  margin: 10px;
+  text-align: center;
+  padding-top: 10px;
+
+  font-size: 30px;
+
+
+}
+.areabtnsss{
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: pink;
+}
+.areabtnsss:hover{
+  background-color: rgba(0,225, 0, 0.5);
+}
+.areabtns{
+  height: 10vh;
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+
+
+}
+.areabtns a{
+  margin-left: 6px;
+  position: relative;
+  flex-basis: auto;
+  font-size: 20px;
+
+  color: red;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
